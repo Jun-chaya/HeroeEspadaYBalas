@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EnemyHealth">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAYAAAAABAAAAEAAAAAAoAgAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAI">
+    <Position X="24.75" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="EnemyAI.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\EnemyAI.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAcAAAAAASAAAJBAhAQAACEQAAAAAAAEAgAAAAAAAUA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyPathfinding">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAEgAgACAEAAAAAAAAAAAIAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyPathfinding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grape" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAQAAAAACAAAAAAAAAAAIAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Grape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GrapeLandSplatter">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\GrapeLandSplatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrapeProjectile" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACIQAAAIEAAAAAAAAAAAAAAAAAAACACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\GrapeProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shooter" BaseTypeListCollapsed="true">
+    <Position X="21.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgQBAAAAAAAABIEAACAAAIAAAAQAAICEABgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Shooter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ActiveInventory">
+    <Position X="34.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAACAAAAAAAAACAAAAAAAAAAAAAAAAAAAAEQA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\ActiveInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bow" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAgAAAAgAAAAAAAAAAAIAAAAACAAAACAACAEA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\Bow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InventorySlot" Collapsed="true">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\InventorySlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile">
+    <Position X="19.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAIhAAQAAABAAAAEAAEAQAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Staff" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABRAAggAAAAAAAAAAAAAAQIAAAAAAAAAAABgCAEA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\Staff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sword" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="33.25" Y="1.191" />
+        <Point X="33.25" Y="1.685" />
+        <Point X="28.833" Y="1.685" Type="JumpStart" />
+        <Point X="28.667" Y="1.685" Type="JumpEnd" />
+        <Point X="17.168" Y="1.685" />
+        <Point X="17.168" Y="5.127" />
+        <Point X="18" Y="5.127" />
+        <Point X="18" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABBAAiqAAAAgAAAAAABAAgIACAAAAAAAQAAACAEA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\Sword.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WeaponInfo" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABEAAAAAAAAAAAAAAAQAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\WeaponInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Destructible">
+    <Position X="43.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Destructible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EconomyManager">
+    <Position X="31.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAEAAAAAAAEAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\EconomyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flash">
+    <Position X="39" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAACAgAAAAAgABAAAABAAAAAEAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Flash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Indestructible">
+    <Position X="39" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Indestructible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Knockback">
+    <Position X="34.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgIFAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Knockback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parallax">
+    <Position X="39" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAiAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAAEI=</HashCode>
+      <FileName>Assets\Scripts\Misc\Parallax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pickup">
+    <Position X="45" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Pickup.PickUpType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Misc\Pickup.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IQQAAAAAEiBAgAAMAIAAAAAAAAAAAAABAAAAAACAAEA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Pickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickUpSpawner">
+    <Position X="43.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAACAAAAAAAAAAAAAAAAAAACAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\PickUpSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteFade">
+    <Position X="40.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Misc\SpriteFade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stamina">
+    <Position X="33.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEACAACAABEAAAAAAAEAAAEAAQAAAEAUAAgEA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Stamina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransparentDetection">
+    <Position X="40.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGAAAAAQCAAAAAAAAAAkEAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Misc\TransparentDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ActiveWeapon">
+    <Position X="20" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRAAAAAgGAAAAAMAAAAAAQAAYAAAAAQAAABAABAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\ActiveWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DamageSource">
+    <Position X="45" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\DamageSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagicLaser">
+    <Position X="15.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAACgAAAAAAAAEAEAhACAAEAAAAAABAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\MagicLaser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovimientoTopDown">
+    <Position X="15.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAiAwIAAIAABAEAAACAwAAAAgAAABAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\MovimientoTopDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHealth">
+    <Position X="17.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIACAgAAAAAAAAAAEAEAAEABAAAAgAhIAAAOA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeguirJugador">
+    <Position X="22.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\SeguirJugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelfDestroy">
+    <Position X="43.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\SelfDestroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AreaEntrance">
+    <Position X="36.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\AreaEntrance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AreaExit">
+    <Position X="36.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAABAAAAAAIAAAAAAEAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\AreaExit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseSingleton">
+    <Position X="35.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\BaseSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraController">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicController">
+    <Position X="26.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\MusicController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManagement">
+    <Position X="37.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\SceneManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="29" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIFade">
+    <Position X="29" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Scene Management\UIFade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IEnemy">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\IEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IWeapon">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\IWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
